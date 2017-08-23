@@ -126,7 +126,7 @@ a:focus {
   padding: 100px 0;
   text-align: center;
   color: white;
-  background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
+  background: url(../img/plant.jpg) no-repeat bottom center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -226,13 +226,24 @@ a:focus {
   width: 100%;
   padding: 50px 0;
   color: white;
-  background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
+  background: url(../img/coffee.jpg) no-repeat center center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+}
 
+.resume-section {
+  width: 100%;
+  padding: 50px 0;
+  color: white;
+  background: url(../img/note.jpg) no-repeat center center scroll;
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
 }
 
 #map {
@@ -245,6 +256,9 @@ a:focus {
     padding-top: 250px;
   }
   .download-section {
+    padding: 100px 0;
+  }
+  .resume-section {
     padding: 100px 0;
   }
   #map {
